@@ -92,6 +92,7 @@ body {
     visibility: hidden;
     opacity: 0;
     transition: all 0.5s ease-in-out;
+    font-weight: bold;
 }
 
 .container-password:hover span:nth-child(3){
