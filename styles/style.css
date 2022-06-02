@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #13274F;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-input {
+    max-width: 480px;
+    margin: 34px 0;
+}
+
+.container-title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container-input span{
+    color: #FFF;
+}
+
+.sliderInput {
+    border-radius: 22px;
+    margin-top: 12px;
+}
+
+.container-input button {
+    border: none;
+    color: #000;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #87CEFA;
+    font-size: 1rem;
+}
+
+.container-input button:hover {
+    background-color: rgba(135, 206, 250, 0.3) ;
+    transition: all 0.3s ;
+}
+
+.container-password {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    max-width: 480px;
+    margin: 14px 0;
+}
+
+.title-password {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.password {
+    background-color: rgba(0, 0, 0, 0.40);
+    height: 60px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    transition: transform 0.5s ease-in-out;
+}
+
+.password:hover {
+    transform: scale(1.05);
+}
+
+.container-password span:nth-child(3){
+    text-align: center;
+    position: relative;
+    top: 20px;
+    padding: 6px 8px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.container-password:hover span:nth-child(3){
+    visibility: visible;
+    bottom: 50px;
+    opacity: 1;
+}
+
+.hide {
+    display: none;
+}
